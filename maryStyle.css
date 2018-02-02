@@ -52,6 +52,14 @@ img {
 
 .footer {
   grid-area: footer;
+  height: 70px;
+
+  padding-left: 45%;
+  padding-right: 45%;
+  background-color: var(--tint2)
+}
+.footer a {
+  text-align: center;
 }
 /******************home page*******************/
 .homeFormat {
@@ -164,17 +172,10 @@ form {
 }
 /********VIDEOS***************/
 .vid {
-  display:grid;
-  grid-column: 3fr 1fr;
+  margin:10%;
 }
 .vid video {
-  width:65%;
-  margin-top: 50px;
-  position: relative;
-  float: left;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width:100%;
 }
 /********************Book Club*********************/
 .entry {
